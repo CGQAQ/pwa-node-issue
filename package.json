@@ -10,17 +10,10 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onDebug",
-		"onCommand:pwa-node-issue.helloWorld"
+		"onDebug"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
-		"commands": [
-			{
-				"command": "pwa-node-issue.helloWorld",
-				"title": "Hello World"
-			}
-		],
 		"debuggers": [
 			{
 				"type": "deno",
