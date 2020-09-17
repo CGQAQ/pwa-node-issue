@@ -19,7 +19,9 @@
 				"type": "deno",
 				"label": "Deno",
 				"runtime": "node",
-				"languages": ["typescript"]
+				"languages": [
+					"typescript"
+				]
 			}
 		]
 	},
